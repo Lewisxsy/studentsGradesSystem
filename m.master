@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="m.master.cs" Inherits="m" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+        <meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="stylesheet" type="text/css" href="image/css/style.css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            border:1px solid #D7DDE4;
+            font-size:12px;
+            min-height:500px;
+        }
+                tr{ line-height:28px;}
+                th{text-align:center;}
+    </style>
+    <style>
+#ctl00_ContentPlaceHolder1_GridView1 table {
+	
+	margin:15px 0
+}
+#ctl00_ContentPlaceHolder1_GridView1 th {
+	background-color:#98EBDC;
+	background:-o-linear-gradient(90deg, #98EBDC, #c4f3eb);
+	background:-moz-linear-gradient( center top, #98EBDC 5%, #c4f3eb 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #98EBDC), color-stop(1, #c4f3eb) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#98EBDC', endColorstr='#c4f3eb');
+	color:#000000
+}
+#ctl00_ContentPlaceHolder1_GridView1,#ctl00_ContentPlaceHolder1_GridView1 th,#ctl00_ContentPlaceHolder1_GridView1 td
+{
+	font-size:0.95em;
+	text-align:center;
+	padding:4px;
+	border:1px solid #75e4d0;
+	border-collapse:collapse
+}
+#ctl00_ContentPlaceHolder1_GridView1 td {
+
+	border:1px solid #c4f3eb;
+	border-collapse:collapse
+}
+#ctl00_ContentPlaceHolder1_GridView1 tr:nth-child(odd){
+	background-color:#dcf8f3;
+	background:-o-linear-gradient(90deg, #dcf8f3, #f8fdfc);
+	background:-moz-linear-gradient( center top, #dcf8f3 5%, #f8fdfc 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dcf8f3), color-stop(1, #f8fdfc) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcf8f3', endColorstr='#f8fdfc');
+}
+#ctl00_ContentPlaceHolder1_GridView1 tr:nth-child(even){
+	background-color:#fdfdfd;
+}
+</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+
+        
+    </div>
+    </form>
+</body>
+</html>

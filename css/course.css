@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1633350662854') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 公共代码 */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a{
+    color:#000;
+    text-decoration:none ;
+}
+
+/* 解决高度坍塌 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 页头开始 */
+.header {
+    float: left;
+    background-color: #4c7098;
+    width:100%;
+    text-indent: 20px;
+    font-size: 26px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* 页头结束 */
+.container .search{
+    float: left;
+    width: 400px;
+    height: 50px;
+    margin-left: 300px;
+    position: relative;
+    margin-top: 10px;
+}
+.container .search .txt{
+    width: 380px;
+    height: 36px;
+    padding:5px;
+    font-size:20px;
+    line-height: 36px;
+    margin-top:10px;
+}
+
+.container .search button{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 11px;
+    left: 345px;
+    border: none;
+}
+.container .search .txt::placeholder{
+    color: #999;
+}
+
+.section1{
+    position:relative;
+    width: 1200px;
+    /* height:100%; */
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color:#f7f7f7;
+}
+.section1 .course-rcm{
+    padding:20px 20px 0 20px;
+}
+.section1 .course-rcm .item a{
+    display:block;
+    padding:10px;
+    /* position:absolute;
+    left:50px;
+    top:16px; */
+    font-size: 20px;
+    color: #494949;
+
+    background-color: #008c8c;
+    color:#fff;
+    border-radius: 30px;
+}
+.section1 .course-rcm ul li{
+    float:left;
+    margin-right:30px;
+    padding:5px;
+}
+.section1 .course-rcm ul li a{
+    display:block;
+    font-size: 20px;
+    color: #000;
+    padding:10px 10px 10px 10px;
+    /* background-color: #f40; */
+}
+.section1 .course-rcm ul .list:hover ul{
+    display:block;
+    z-index: 100;
+}
+.section1 .course-rcm ul li.list a:hover{
+    color:#fff;
+}
+.section1 .course-rcm ul .list:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 140, 140, 1);
+}
+.section1 .course-rcm ul li ul{
+    display:none;
+}
+.section1 .course-rcm ul li ul li{
+    float:none;
+}
+.section1 .course-rcm ul li ul li a{
+    display:block;
+    padding:5px;
+    /* text-align:center; */
+    line-height:14px;
+    height:14px;
+    font-size:14px;
+}
+.section1 .course-rcm .hotclass{
+    padding-top: 18px;
+    color:#007722;
+}
+.section1 .course-rcm .hotclass span{
+    position:absolute;
+    right:100px;
+    top:32px;
+}
+.section1 .courselist ul li{
+    width:150px;
+    height:260px;
+    float:left;
+    color:#000;
+    margin:20px 24px;
+    list-style-type: none;
+    padding:20px;
+    border:1px solid rgb(247, 238, 238);
+    border-radius:8px;
+}
+
+.section1 .courselist ul li:hover{
+    box-shadow:0 4px 30px 0 #aaaaaa;
+}
+
+.section1 .courselist ul li a div.item img{
+    width:150px;
+    height:220px;
+}
+
+.section1 .courselist ul li a div.item h1{
+    height:24px;
+    line-height: 24px;
+    font-size:16px;
+    text-align: center;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color:#000;
+}
+
+.section1 .courselist ul li a div.item .explain{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:0.7em;
+    color:#000;
+}
+
+a div.totop span{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:40px;
+    height:40px;
+    border:1px solid #999;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    color:#999;
+    cursor:pointer;
+}
+a div.totop span:hover{
+    color:#62aeec;
+    border:1px solid #62aeec;
+} 

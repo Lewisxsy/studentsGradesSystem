@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* 解决高度坍塌 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 解决完毕 */
+
+/* 页头 */
+.header{
+    width: 100%;
+    height: 115px;
+    background-color: #aaaaaa;
+}
+
+.header .title{
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    font-size: 32px;
+    line-height: 36px;
+    color:#614e3c;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+
+}
+.header .hubu-logo {
+    margin-right: 320px;
+}
+.header .hubu-logo img{
+    height: 115px;
+    float: right;
+}
+
+
+/* 介绍区域 */
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1040px;
+    background-color:#cccccc;
+    padding: 30px;    
+    border-radius: 5px;
+}
+
+.container .book{
+    float: right;
+    margin-right: 111px;
+
+}
+
+.container .book img{
+    height: 300px;
+    width: 210px;    
+    
+}
+
+.container .info{
+    border-radius: 8px;
+    padding:8px 5px 8px 20px;
+    width: 500px;
+    float: left;
+    background-color: #dad8d6;
+    margin-left: 111px;
+    height: 280px;
+}
+
+
+.container .info li{
+    display: block;
+    margin-bottom: 18.1px;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3a4a5a;
+}
+
+.content{
+    width: 1040px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+
+.content .aside-right{
+    float:right;
+    width: 210px;
+    margin-right: 111px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.aside-right .logo {
+    background-color: #2a3a4a;
+    border-radius: 4px;
+
+}
+.aside-right .logo .logo1{
+    float: right;
+    width: 190px;
+    margin: 8px 7px 8px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 4.5px;
+}
+
+.aside-right .teacher{
+    padding-top: 8px;
+    font-size: 13px;
+    font-family:微软雅黑;
+    color: #333;
+    padding-left: 10px;
+
+} 
+
+.aside-right .teacher span{
+    color: green;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.content .aside-right .box{
+    border-bottom: 1px solid thistle;
+    margin:0 5px 0 5px;
+    padding-bottom: 8px;
+
+}
+.content .aside-right .box .smallbox{
+    padding:10px 15px;
+}
+
+.content .aside-right .box .smallbox .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ff9966;
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    float:left;
+}
+.content .aside-right .box .smallbox div.information{
+    position: absolute;
+    left: 80px;
+    top: 40 px;
+
+}
+
+.content .aside-right .box .smallbox div ul li{
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.content .aside-right .box .smallbox div ul li span{
+    font-size: 10px;    
+    color: #999999;
+}
+
+/* main */
+.content .main{
+    float: left;
+    width: 500px;
+    border: 0.5px solid #dddddd;
+    border-radius: 4px;
+    margin-left: 111px;
+}
+
+.content .main .sec-box{
+    padding-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.content .main .sec-box{
+    border-bottom: 1px solid rgb(230, 230,230);
+}   
+.content .main .sec-box .header2 .head{
+    width: 78px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #00cc7e;
+    padding-bottom: 36px;
+    border-bottom: 2px solid rgb(0, 204, 126);
+    
+}
+
+.content .main .introduction .icon img{
+    width: 17px;    
+    height: 17px;
+
+}
+.content .main .introduction{
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.content .main .introduction .intro{
+    font-size: 15px;
+}
+
+.content .main .introduction .neirong{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.content .main .introduction .aim{
+    font-size: 15px;
+    position: relative;
+}
+
+
+
+.content .main .introduction .aim img{
+    width: 25px;    
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: -4.2px;
+}
+.content .main .introduction .aim .text{
+    margin-left: 22px;
+    padding-top: 5px;
+}
+
+.content .main .introduction .aim .neirong{
+    padding-bottom: 25px;
+}

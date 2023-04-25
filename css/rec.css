@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #386d49;
+    padding-top: 20px;
+    padding-left: 170px;
+    
+}
+
+body{
+    background: #f4f4f4;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container .recommend{
+    width: 800px;
+    margin: 0 auto;
+}
+.container .recommend ul li{
+    margin-top: 13px;
+}
+
+
+.footer{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: 110px;
+}
